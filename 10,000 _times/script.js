@@ -10,6 +10,7 @@ function myFunk(thng) {
 };
 
 document.querySelector('.btn').addEventListener('click',function(){
-        myFunk(prompt("What would you like me to print 10,000 times?"));
+       
+    myFunk(prompt("What would you like me to print 10,000 times?"))
 
 });
