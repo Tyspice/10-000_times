@@ -10,12 +10,13 @@ h1 {
 }
 
 .container {
-    flex: content;
+    margin: auto;
+    max-width: 300px;
 
 }
 
 .bodyContainer {
-    flex: content;
+    
 
 }
 
@@ -26,8 +27,8 @@ h1 {
     border-radius: 20px;
     background-color: coral;
     color: darkblue;
-    max-width: 100px;
-    margin: auto 500px;
+    margin: auto 100px auto auto;
+    max-width: 100px
 
 }
 
